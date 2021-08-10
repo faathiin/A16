@@ -1,0 +1,32 @@
+@media all and (max-width: 1000px) {
+    .intro h1 {
+        font-size:40px;
+      }
+}
+
+@media all and (max-width: 670px) {
+    .header-right {
+        display:none;
+    }
+    .menu-icon {
+     display:block;
+    }
+    footer {
+        text-align: center;
+      }
+      .intro h1 {
+        font-size:40px;
+        line-height:20px;
+      }
+      
+    .intro p {
+        padding-bottom:0px;
+        font-size:14px;
+        line-height:20px;
+
+      }
+    
+    .button {
+      width:70%;
+    }
+}
