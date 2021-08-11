@@ -150,38 +150,47 @@ body {
     opacity: 1;
   }
 
-
-
-  .form-wrapper {
-    border-bottom: 1px solid #eee;
-    padding-bottom: 80px;
+  .main_3 {
+    background-color: #f8a5c2;
     text-align: center;
-  }
-  
-  .form {
-    padding: 15px 40px;
-    background-color:rgba(120, 111, 166,1.0);
-    cursor: pointer;
-    box-shadow: 0 7px rgba(87, 75, 144,1.0);
-    color:white;
-  }
-  
-  .form:active {
-    position: relative;
-    top: 7px;
-    box-shadow: none;
-  }
+    font-family:sans-serif;
+    width:100%;
+    margin:0 auto;
+    padding-top:80px;
+    
+}
 
-  input, textarea {
-    width:400px;
-    margin-bottom:10px;
-    padding:20px;
-    font-size:18px;
-    border:1px solid #dee7ec;
-  }
+.main_3 h2 {
+  font-size:30px;
+  margin-bottom:10px;
+}
+.main_3 h3 {
+  font-size:25px;
+  font-weight:normal;
+  margin-bottom:20px;
+}
 
-  .form-submit {
-    background-color:rgba(120, 111, 166,1.0);
+.bi-chevron-double-down{
+    cursor:pointer;
+    padding-bottom:40px;
+
+}
+.bi-chevron-double-down:hover {
+  position:relative;
+  top:15px;
+}
+.form {
+  background-color: #f1f2f6;
+  text-align: center;
+  padding:50px 0px;
+}
+
+.form h3 {
+  font-weight:bold;
+  font-size:30px;
+}
+.form-submit {
+  background-color:rgba(120, 111, 166,1.0);
     color:white;
     display: inline-block;
     border-radius: 4px;
@@ -197,35 +206,27 @@ body {
     margin: 5px;
     box-shadow: 0 3px #999;
     opacity: 0.8;
-  }
+}
 
-  .form-body p {
-      padding-top: 1px;
-  }
+.form-submit:hover span {
+  padding-right: 15px;
+  padding-left: 15px;
+}
 
+.form-submit:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 
-  .form-submit:hover span {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  
-  .form-submit:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-  
-  .form-submit:hover {
-    opacity: 1;
-  }
-  
-  .form-submit:active {
-    position: relative;
-    top: 3px;
-    box-shadow: none;
-  }
+.form-submit:hover {
+  opacity: 1;
+}
 
-
-
+.form-submit:active {
+  position: relative;
+  top: 3px;
+  box-shadow: none;
+}
 
 
 
@@ -236,6 +237,7 @@ body {
   footer p {
     color: #b3aeb5;
     font-size: 12px;
+    text-align:center;
   }
   
   footer {
