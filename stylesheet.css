@@ -30,7 +30,7 @@ body {
   }
   
   .menu-icon {
-    display:none;
+    visibility: hidden;
     float:right;
     color:white;
     font-size: 25px;

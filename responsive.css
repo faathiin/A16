@@ -25,7 +25,7 @@
         display:none;
     }
     .menu-icon {
-     display:block;
+      visibility:visible;
     }
     footer {
         text-align: center;
@@ -72,5 +72,15 @@
       .fitur3 {
         padding: 5px;
         font-size: 13px;
+      }
+      .animasi-coba {
+        animation: none;
+      }
+
+      .heading h1 {
+        animation: none;
+      }
+      .intro p {
+        animation: none;
       }
 }
